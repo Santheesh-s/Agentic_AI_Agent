@@ -1,0 +1,14 @@
+langchain>=0.2.0
+langchain-google-genai
+langchain-community
+langchain-huggingface
+langchain-text-splitters
+langgraph
+tavily-python
+streamlit
+python-dotenv
+faiss-cpu
+sentence-transformers
+mcp
+google-generativeai
+langchain-groq

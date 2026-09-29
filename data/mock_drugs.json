@@ -1,0 +1,178 @@
+[
+  {
+    "branded_name": "Tylenol",
+    "generic_name": "paracetamol",
+    "drug_class": "analgesic",
+    "uses": "Relief of mild-to-moderate pain (headache, muscle ache, toothache, period pain) and reducing fever.",
+    "side_effects": "Rare at normal doses; occasional nausea or rash.",
+    "warnings": "Do not exceed 4000 mg in 24 hours. Overdose can cause severe, sometimes silent liver damage. Avoid regular heavy alcohol use.",
+    "otc": true,
+    "max_daily_dose": "4000 mg per 24 hours (adults)",
+    "interactions": ["warfarin", "carbamazepine"]
+  },
+  {
+    "branded_name": "Advil",
+    "generic_name": "ibuprofen",
+    "drug_class": "nsaid",
+    "uses": "Pain relief, reducing inflammation and fever (arthritis, muscle strain, dental pain, period pain).",
+    "side_effects": "Stomach pain, heartburn, nausea, dizziness.",
+    "warnings": "Take with food. Raises the risk of stomach bleeding and can affect the kidneys and blood pressure, especially with regular use.",
+    "otc": true,
+    "max_daily_dose": "1200 mg per 24 hours without medical advice (OTC label)",
+    "interactions": ["aspirin", "lisinopril", "losartan", "warfarin", "hydrochlorothiazide"]
+  },
+  {
+    "branded_name": "Bayer Aspirin",
+    "generic_name": "aspirin",
+    "drug_class": "nsaid",
+    "uses": "Relieves pain and fever; low-dose aspirin is used, on medical advice, to reduce heart attack and stroke risk.",
+    "side_effects": "Indigestion, easy bruising, ringing in the ears at high doses.",
+    "warnings": "Increases bleeding risk. Not for children with a viral illness (Reye's syndrome risk). Do not combine with other NSAIDs.",
+    "otc": true,
+    "max_daily_dose": "4000 mg per 24 hours for pain relief (OTC label); low-dose regimens are prescribed separately",
+    "interactions": ["ibuprofen", "warfarin", "naproxen"]
+  },
+  {
+    "branded_name": "Aleve",
+    "generic_name": "naproxen",
+    "drug_class": "nsaid",
+    "uses": "Pain relief and inflammation reduction for arthritis, muscle aches and menstrual cramps.",
+    "side_effects": "Stomach upset, heartburn, headache, dizziness.",
+    "warnings": "Carries the same stomach, kidney and cardiovascular NSAID warnings as ibuprofen. Do not combine with other NSAIDs.",
+    "otc": true,
+    "max_daily_dose": "660 mg per 24 hours (OTC label)",
+    "interactions": ["aspirin", "warfarin", "lisinopril"]
+  },
+  {
+    "branded_name": "Prinivil",
+    "generic_name": "lisinopril",
+    "drug_class": "ace_inhibitor",
+    "uses": "Treats high blood pressure and heart failure; often called a 'blood pressure medication'.",
+    "side_effects": "Persistent dry cough, dizziness, headache, raised blood potassium.",
+    "warnings": "Not for use in pregnancy. Do not stop suddenly without medical advice. Avoid potassium supplements unless prescribed.",
+    "otc": false,
+    "max_daily_dose": "Prescription only - follow your prescriber's instructions",
+    "interactions": ["ibuprofen", "naproxen", "spironolactone", "potassium supplements", "losartan"]
+  },
+  {
+    "branded_name": "Cozaar",
+    "generic_name": "losartan",
+    "drug_class": "arb",
+    "uses": "Treats high blood pressure and helps protect the kidneys in some people with diabetes; a 'blood pressure medication'.",
+    "side_effects": "Dizziness, tiredness, raised potassium.",
+    "warnings": "Not for use in pregnancy. Do not combine with an ACE inhibitor unless a specialist has prescribed it.",
+    "otc": false,
+    "max_daily_dose": "Prescription only - follow your prescriber's instructions",
+    "interactions": ["ibuprofen", "lisinopril", "spironolactone"]
+  },
+  {
+    "branded_name": "Microzide",
+    "generic_name": "hydrochlorothiazide",
+    "drug_class": "diuretic",
+    "uses": "A 'water pill' used for high blood pressure and fluid retention.",
+    "side_effects": "Increased urination, dizziness, low potassium or sodium.",
+    "warnings": "Dehydration can strain the kidneys; blood tests may be needed to check salts and kidney function.",
+    "otc": false,
+    "max_daily_dose": "Prescription only - follow your prescriber's instructions",
+    "interactions": ["ibuprofen", "naproxen"]
+  },
+  {
+    "branded_name": "Lipitor",
+    "generic_name": "atorvastatin",
+    "drug_class": "statin",
+    "uses": "Lowers LDL cholesterol and reduces the risk of heart attack and stroke.",
+    "side_effects": "Muscle aches, headache, digestive upset.",
+    "warnings": "Avoid large amounts of grapefruit juice. Report unexplained muscle pain or weakness promptly.",
+    "otc": false,
+    "max_daily_dose": "Prescription only - follow your prescriber's instructions",
+    "interactions": ["clarithromycin", "itraconazole"]
+  },
+  {
+    "branded_name": "Coumadin",
+    "generic_name": "warfarin",
+    "drug_class": "anticoagulant",
+    "uses": "A 'blood thinner' used to prevent and treat harmful blood clots.",
+    "side_effects": "Easy bruising, nosebleeds, bleeding gums.",
+    "warnings": "Needs regular INR blood tests. Many medicines and diet changes affect it; ask before starting or stopping anything.",
+    "otc": false,
+    "max_daily_dose": "Prescription only - follow your prescriber's instructions",
+    "interactions": ["ibuprofen", "aspirin", "naproxen", "paracetamol", "amoxicillin"]
+  },
+  {
+    "branded_name": "Amoxil",
+    "generic_name": "amoxicillin",
+    "drug_class": "antibiotic",
+    "uses": "Treats certain bacterial infections such as ear, throat, chest and urinary infections.",
+    "side_effects": "Diarrhoea, nausea, mild skin rash.",
+    "warnings": "Do not use if allergic to penicillin. Only works on bacteria, not colds or flu. Complete the full prescribed course.",
+    "otc": false,
+    "max_daily_dose": "Prescription only - follow your prescriber's instructions",
+    "interactions": ["warfarin"]
+  },
+  {
+    "branded_name": "Zyrtec",
+    "generic_name": "cetirizine",
+    "drug_class": "antihistamine",
+    "uses": "Relieves allergy symptoms such as hay fever, runny nose and itchy eyes.",
+    "side_effects": "Drowsiness, dry mouth, headache.",
+    "warnings": "May cause drowsiness; take care driving. Limit alcohol while taking it.",
+    "otc": true,
+    "max_daily_dose": "10 mg per 24 hours (adults, OTC label)",
+    "interactions": []
+  },
+  {
+    "branded_name": "Prilosec",
+    "generic_name": "omeprazole",
+    "drug_class": "ppi",
+    "uses": "Reduces stomach acid for heartburn, acid reflux and stomach ulcers.",
+    "side_effects": "Headache, stomach pain, diarrhoea or constipation.",
+    "warnings": "Long-term use can lower vitamin B12 and magnesium; use only as long as advised.",
+    "otc": true,
+    "max_daily_dose": "20 mg per 24 hours for 14 days (OTC label)",
+    "interactions": ["clopidogrel"]
+  },
+  {
+    "branded_name": "Glucophage",
+    "generic_name": "metformin",
+    "drug_class": "antidiabetic",
+    "uses": "Controls blood sugar in type 2 diabetes.",
+    "side_effects": "Nausea, stomach upset, metallic taste.",
+    "warnings": "Kidney problems, dehydration or heavy alcohol use may require pausing it; ask your doctor before contrast dye scans.",
+    "otc": false,
+    "max_daily_dose": "Prescription only - follow your prescriber's instructions",
+    "interactions": []
+  },
+  {
+    "branded_name": "Norvasc",
+    "generic_name": "amlodipine",
+    "drug_class": "calcium_channel_blocker",
+    "uses": "Treats high blood pressure and angina; a 'blood pressure medication'.",
+    "side_effects": "Swollen ankles, flushing, headache.",
+    "warnings": "May cause low blood pressure when starting. Do not stop suddenly without medical advice.",
+    "otc": false,
+    "max_daily_dose": "Prescription only - follow your prescriber's instructions",
+    "interactions": []
+  },
+  {
+    "branded_name": "Tenormin",
+    "generic_name": "atenolol",
+    "drug_class": "beta_blocker",
+    "uses": "Treats high blood pressure, angina and certain heart rhythm problems; a 'blood pressure medication'.",
+    "side_effects": "Tiredness, cold hands and feet, slow heart rate.",
+    "warnings": "Do not stop suddenly. May not be suitable with asthma. Can mask low blood sugar warning signs in diabetes.",
+    "otc": false,
+    "max_daily_dose": "Prescription only - follow your prescriber's instructions",
+    "interactions": []
+  },
+  {
+    "branded_name": "Benadryl",
+    "generic_name": "diphenhydramine",
+    "drug_class": "antihistamine",
+    "uses": "Relieves allergy symptoms and occasional sleeplessness.",
+    "side_effects": "Drowsiness, dry mouth, blurred vision.",
+    "warnings": "Causes marked drowsiness; avoid driving or alcohol. Use caution in older adults.",
+    "otc": true,
+    "max_daily_dose": "300 mg per 24 hours (adults, OTC label)",
+    "interactions": []
+  }
+]
